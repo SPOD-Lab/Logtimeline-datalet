@@ -81,6 +81,7 @@ Before using this datalet on SPOD, you must add this lines to "\Datalet-Ecosyste
 
 Also, you should add in "\Datalet-Ecosystem-Provider\deep-components\locales\controllet_ln.js" the proper translation for the controllet (english and italian):
 
+ENGLISH:
 
         //logtimeline english lan
         ln["timeline_en"] = "Logtimeline";
@@ -88,8 +89,8 @@ Also, you should add in "\Datalet-Ecosystem-Provider\deep-components\locales\con
         ln["LOGTIMELINEStartDate_en"] = "StartDate";
         ln["LOGTIMELINEStartDatedescription_en"] = "Event Start Date";
         
-        ln["LOGTIMELINEEndDate_en"]="EndDate";
-        ln["enddatedescription_en"] = "Event End Date";
+        ln["LOGTIMELINEEndDate_en"] = "EndDate";
+        ln["LOGTIMELINEEndDatedescription_en"] = "Event End Date";
         
         ln["LOGTIMELINEHeadline_en"] = "Headline";
         ln["LOGTIMELINEHeadlinedescription_en"] = "Name of the event";
@@ -99,6 +100,9 @@ Also, you should add in "\Datalet-Ecosystem-Provider\deep-components\locales\con
         
         ln["LOGTIMELINEMediaUrl_en"] = "MediaUrl";
         ln["LOGTIMELINEMediaUrldescription_en"] = "Url of video/image";
+        
+        ln["LOGTIMELINEBackground_en"] = "Background";
+        ln["LOGTIMELINEBackgrounddescription_en"] = "Url of background image";
         
         ln["LOGTIMELINEStartTime_en"] = "StartTime";
         ln["LOGTIMELINEStartTimedescription_en"] = "Event start time";
@@ -115,3 +119,41 @@ Also, you should add in "\Datalet-Ecosystem-Provider\deep-components\locales\con
         ln["LOGTIMELINEEventInfo3_en"] = "EventInfo3";
         ln["LOGTIMELINEEventInfo3description_en"] = "Additional info 3";
          
+
+ITALIAN:
+
+        //logtimeline italian lan
+        ln["timeline_it"] = "Logtimeline";
+        
+        ln["LOGTIMELINEStartDate_it"] = "Data di inizio";
+        ln["LOGTIMELINEStartDatedescription_it"] = "Data iniziale dell'evento";
+        
+        ln["LOGTIMELINEEndDate_it"] = "Data di fine";
+        ln["LOGTIMELINEEndDatedescription_it"] = "Data di fine dell'evento";
+        
+        ln["LOGTIMELINEHeadline_it"] = "Nome evento";
+        ln["LOGTIMELINEHeadlinedescription_it"] = "Nome dell'evento";
+        
+        ln["LOGTIMELINEDescription_it"] = "Descrizione";
+        ln["LOGTIMELINEDescriptiondescription_it"] = "Descrizione dell'evento";
+        
+        ln["LOGTIMELINEMediaUrl_it"] = "MediaUrl";
+        ln["LOGTIMELINEMediaUrldescription_it"] = "Url dell'immagine o video";
+        
+        ln["LOGTIMELINEBackground_it"] = "Immagine di sfondo";
+        ln["LOGTIMELINEBackgrounddescription_it"] = "Url dell'immagine di sfondo";
+        
+        ln["LOGTIMELINEStartTime_it"] = "Orario di inizio";
+        ln["LOGTIMELINEStartTimedescription_it"] = "Orario di inzio dell'evento";
+        
+        ln["LOGTIMELINEFinishTime_it"] = "Orario di fine";
+        ln["LOGTIMELINEFinishTimedescription_it"] = "Orario di fine dell'evento";
+        
+        ln["LOGTIMELINEEventInfo1_it"] = "Informazione evento 1";
+        ln["LOGTIMELINEEventInfo1description_en"] = "Informazione aggiuntiva dell'evento";
+        
+        ln["LOGTIMELINEEventInfo2_it"] = "Informazione evento 2";
+        ln["LOGTIMELINEEventInfo2description_it"] = "Informazione aggiuntiva dell'evento";
+        
+        ln["LOGTIMELINEEventInfo3_it"] = "Informazione evento 2";
+        ln["LOGTIMELINEEventInfo3description_it"] = "Informazione aggiuntiva dell'evento";        
