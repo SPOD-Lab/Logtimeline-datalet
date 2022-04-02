@@ -10,67 +10,67 @@ Before using this datalet on SPOD, you must add this lines to "\Datalet-Ecosyste
             <idm>
                 <inputs>                  
                     <input>
-                        <name>StartDate</name>
+                        <name>LOGTIMELINEStartDate</name>
                         <description>start date of the event</description>
                         <type>TEXT</type>
                         <selection>1</selection>
                     </input>
                     <input>
-                        <name>EndDate</name>
+                        <name>LOGTIMELINEEndDate</name>
                         <description>end date of the event</description>
                         <type>TEXT</type>
                         <selection>1</selection>
                     </input>
                     <input>
-                        <name>Headline</name>
+                        <name>LOGTIMELINEHeadline</name>
                         <description>name of the event</description>
                         <type>TEXT</type>
                         <selection>1</selection>
                     </input>
                     <input>
-                        <name>Description</name>
+                        <name>LOGTIMELINEDescription</name>
                         <description>description of the event</description>
                         <type>TEXT</type>
                         <selection>1</selection>
                     </input>
                     <input>
-                        <name>MediaUrl</name>
+                        <name>LOGTIMELINEMediaUrl</name>
                         <description>url of video/image (optional)</description>
                         <type>TEXT</type>
                         <selection>1</selection>
                     </input>
                     <input>
-                        <name>Background</name>
+                        <name>LOGTIMELINEBackground</name>
                         <description>url of background image (optional)</description>
                         <type>TEXT</type>
                         <selection>1</selection>
                     </input>
                     <input>
-                        <name>StartTime</name>
+                        <name>LOGTIMELINEStartTime</name>
                         <description>start time of the event (optional)</description>
                         <type>TEXT</type>
                         <selection>1</selection>
                     </input>
                     <input>
-                        <name>FinishTime</name>
+                        <name>LOGTIMELINEFinishTime</name>
                         <description>end time of the event (optional)</description>
                         <type>TEXT</type>
                         <selection>1</selection>
                     </input>
                     <input>
-                        <name>EventInfo1</name>
+                        <name>LOGTIMELINEEventInfo1</name>
                         <description>event info 1 (optional)</description>
                         <type>TEXT</type>
                         <selection>1</selection>
                     </input>
                     <input>
-                        <name>EventInfo2</name>
+                        <name>LOGTIMELINEEventInfo2</name>
                         <description>event info 2 (optional)</description>
                         <type>TEXT</type>
                         <selection>1</selection>
                     </input>
                     <input>
-                        <name>EventInfo3</name>
+                        <name>LOGTIMELINEEventInfo3</name>
                         <description>event info 3 (optional)</description>
                         <type>TEXT</type>
                         <selection>1</selection>
@@ -78,3 +78,40 @@ Before using this datalet on SPOD, you must add this lines to "\Datalet-Ecosyste
                 </inputs>
             </idm>
         </component>
+
+Also, you should add in "\Datalet-Ecosystem-Provider\deep-components\locales\controllet_ln.js" the proper translation for the controllet (english and italian):
+
+
+        //logtimeline english lan
+        ln["timeline_en"] = "Logtimeline";
+        
+        ln["LOGTIMELINEStartDate_en"] = "StartDate";
+        ln["LOGTIMELINEStartDatedescription_en"] = "Event Start Date";
+        
+        ln["LOGTIMELINEEndDate_en"]="EndDate";
+        ln["enddatedescription_en"] = "Event End Date";
+        
+        ln["LOGTIMELINEHeadline_en"] = "Headline";
+        ln["LOGTIMELINEHeadlinedescription_en"] = "Name of the event";
+        
+        ln["LOGTIMELINEDescription_en"] = "Description";
+        ln["LOGTIMELINEDescriptiondescription_en"] = "Event Description";
+        
+        ln["LOGTIMELINEMediaUrl_en"] = "MediaUrl";
+        ln["LOGTIMELINEMediaUrldescription_en"] = "Url of video/image";
+        
+        ln["LOGTIMELINEStartTime_en"] = "StartTime";
+        ln["LOGTIMELINEStartTimedescription_en"] = "Event start time";
+        
+        ln["LOGTIMELINEFinishTime_en"] = "FinishTime";
+        ln["LOGTIMELINEFinishTimedescription_en"] = "Event end time";
+        
+        ln["LOGTIMELINEEventInfo1_en"] = "EventInfo1";
+        ln["LOGTIMELINEEventInfo1description_en"] = "Additional info 1";
+        
+        ln["LOGTIMELINEEventInfo2_en"] = "EventInfo2";
+        ln["LOGTIMELINEEventInfo2description_en"] = "Additional info 2";
+        
+        ln["LOGTIMELINEEventInfo3_en"] = "EventInfo3";
+        ln["LOGTIMELINEEventInfo3description_en"] = "Additional info 3";
+         
