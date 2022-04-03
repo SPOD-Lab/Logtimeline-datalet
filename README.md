@@ -22,13 +22,13 @@ Before using this datalet on SPOD, you must add this lines to "\Datalet-Ecosyste
                         <selection>1</selection>
                     </input>
                     <input>
-                        <name>LOGTIMELINEHeadline</name>
+                        <name>LOGTIMELINEEventTitle</name>
                         <description>name of the event</description>
                         <type>TEXT</type>
                         <selection>1</selection>
                     </input>
                     <input>
-                        <name>LOGTIMELINEDescription</name>
+                        <name>LOGTIMELINEEventDescription</name>
                         <description>description of the event</description>
                         <type>TEXT</type>
                         <selection>1</selection>
@@ -58,19 +58,19 @@ Before using this datalet on SPOD, you must add this lines to "\Datalet-Ecosyste
                         <selection>1</selection>
                     </input>
                     <input>
-                        <name>LOGTIMELINEEventInfo1</name>
+                        <name>LOGTIMELINEEvent-info1</name>
                         <description>event info 1 (optional)</description>
                         <type>TEXT</type>
                         <selection>1</selection>
                     </input>
                     <input>
-                        <name>LOGTIMELINEEventInfo2</name>
+                        <name>LOGTIMELINEEvent-info2</name>
                         <description>event info 2 (optional)</description>
                         <type>TEXT</type>
                         <selection>1</selection>
                     </input>
                     <input>
-                        <name>LOGTIMELINEEventInfo3</name>
+                        <name>LOGTIMELINEEvent-info3</name>
                         <description>event info 3 (optional)</description>
                         <type>TEXT</type>
                         <selection>1</selection>
@@ -92,11 +92,11 @@ ENGLISH:
         ln["LOGTIMELINEEndDate_en"] = "EndDate";
         ln["LOGTIMELINEEndDatedescription_en"] = "Event End Date";
         
-        ln["LOGTIMELINEHeadline_en"] = "Headline";
-        ln["LOGTIMELINEHeadlinedescription_en"] = "Name of the event";
+        ln["LOGTIMELINEEventTitle_en"] = "EventTitle";
+        ln["LOGTIMELINEEventTitledescription_en"] = "Name of the event";
         
-        ln["LOGTIMELINEDescription_en"] = "Description";
-        ln["LOGTIMELINEDescriptiondescription_en"] = "Event Description";
+        ln["LOGTIMELINEEventDescription_en"] = "EventDescription";
+        ln["LOGTIMELINEEventDescriptiondescription_en"] = "Event Description";
         
         ln["LOGTIMELINEMediaUrl_en"] = "MediaUrl";
         ln["LOGTIMELINEMediaUrldescription_en"] = "Url of video/image";
@@ -110,13 +110,13 @@ ENGLISH:
         ln["LOGTIMELINEFinishTime_en"] = "FinishTime";
         ln["LOGTIMELINEFinishTimedescription_en"] = "Event end time";
         
-        ln["LOGTIMELINEEventInfo1_en"] = "EventInfo1";
+        ln["LOGTIMELINEEven-info1_en"] = "Event-info1";
         ln["LOGTIMELINEEventInfo1description_en"] = "Additional info 1";
         
-        ln["LOGTIMELINEEventInfo2_en"] = "EventInfo2";
+        ln["LOGTIMELINEEvent-info2_en"] = "Event-info2";
         ln["LOGTIMELINEEventInfo2description_en"] = "Additional info 2";
         
-        ln["LOGTIMELINEEventInfo3_en"] = "EventInfo3";
+        ln["LOGTIMELINEEvent-info3_en"] = "Event-info3";
         ln["LOGTIMELINEEventInfo3description_en"] = "Additional info 3";
          
 
