@@ -110,7 +110,7 @@ ENGLISH:
         ln["Finish Time"] = "FinishTime";
         ln["FinishTimedescription_en"] = "Event end time";
         
-        ln["Even info 1"] = "Event-info1";
+        ln["Event info 1"] = "Event-info1";
         ln["EventInfo1description_en"] = "Additional info 1";
         
         ln["Event info 2"] = "Event-info2";
