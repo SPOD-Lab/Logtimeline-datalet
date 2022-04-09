@@ -669,7 +669,7 @@ class LogtimelineDatalet extends BaseDatalet {
 
         let _isUnixTimestamp = function (str) {
 
-            if ((str + '').match(/^(1[0-9]{2,3}.[0-9]{5,6})$/g) || (str + '').match(/^(1[0-9]{7,8})$/g)) return true;
+            if ((str + '').match(/^1((\d{2})|(\d{3})|(\d{4})).((\d{3}))(\d*)$/g) || (str + '').match(/^(1[0-9]{7,8})$/g)) return true;
             else return false;
         };
 
