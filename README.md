@@ -211,5 +211,5 @@ ENGLISH:
 	ln["LOGTIMELINETheme_en"] = "Theme";
 	ln["LOGTIMELINEThemeDescription_en"] = "Theme"
 	ln["light_en"] = "Light";
-	ln["dark_en"] = "Dark";= "Log timeline";
+	ln["dark_en"] = "Dark";
 	
