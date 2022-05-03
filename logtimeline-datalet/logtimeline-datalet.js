@@ -632,7 +632,7 @@ class LogtimelineDatalet extends BaseDatalet {
 
             if (text_i > -1) {
                 while (inputs[j] === "LOGTIMELINEEventDescription") {
-                    text += "<table><tr><td id='event-description'><b>" + data[j].name + "</b>:</td><td style='max-width: 350px'>" + data[j].data[i] + "</td></tr></table>";
+                    text += "<table><tr class='event-description_row'><td id='event-description_data'><b>" + data[j].name + "</b>:</td><td style='max-width: 350px'>" + data[j].data[i] + "</td></tr></table>";
                     //text += "<div><small><b style='color: black'>" + data[j].name + "</b></small>: " + data[j].data[i] + "</div>";
                     j++;
                 }
@@ -833,7 +833,7 @@ class LogtimelineDatalet extends BaseDatalet {
 
             /*Set event description in dark theme*/
             if(isDark) {
-                let eventDescriptions = that.shadow_root.querySelectorAll(".event-description");
+                let eventDescriptions = that.shadow_root.querySelectorAll(".event-description_row");
                 for(let eventDescription of eventDescriptions){
                     eventDescription.setAttribute("style", "color: darkgrey");
                 }
