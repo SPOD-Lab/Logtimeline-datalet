@@ -212,4 +212,65 @@ ENGLISH:
 	ln["LOGTIMELINEThemeDescription_en"] = "Theme"
 	ln["light_en"] = "Light";
 	ln["dark_en"] = "Dark";
+
+ITALIAN:
+
+	//logtimeline italian lan
+	ln["logtimeline_it"] = "Log timeline";
+	ln["logtimelineDescription_it"] = "La log timeline è una visualizzazione interattiva di event logs su una linea temporale. Gli event logs sono una risorsa di base e forniscono informazioni circa il traffico sulla rete e altre condizioni. Ogni evento ha un timestamp che rappresenta la data in cui si è verificato: nel caso in cui l’evento non è puntuale, ha una data iniziale e una finale. Oltre alla data, è possibile includere le informazioni circa l’orario di inizio e di fine di un evento, il nome, la descrizione, un link e altre informazioni aggiuntive. Inoltre, è possibile spostare e zoomare liberamente la timeline.";
+	ln["LOGTIMELINEStartDate_it"] = "DATA INIZIALE";
+	ln["LOGTIMELINEStartDateDescription_it"] = "Data iniziale dell'evento. La log timeline supporta la maggior parte dei timestamp scritti nei file di log. Per esempio: il formato “yyyy-MM-d’T’HH:mm:ss.SSSZ” (esempio: 2001-07-04T12:08:56.235-0700); il formato “yyyyy.MMMMM.dd GGG hh:mm aaa” (esempio: 02001.July.04 AD 12:08:56 -0700); il formato “yyyy.MM.dd G ‘at’ HH:mm:ss” (esempio: 2001.07.04 at 12:08:56 PDT). La lista completa dei formati di timestamp supportati è presente a questo link: https://lo901355326.wordpress.com/";
+	ln["LOGTIMELINEEndDate_it"] = "DATA FINALE";
+	ln["LOGTIMELINEEndDateDescription_it"] = "La data finale dell'evento (vedi data iniziale). Può essere uguale alla data iniziale quando l'evento è puntuale.";
+	ln["LOGTIMELINEEventTitle_it"] = "NOME EVENTO";
+	ln["LOGTIMELINEEventTitleDescription_it"] = "Nome evento";
+	ln["LOGTIMELINEEventDescription_it"] = "DESCRIZIONE EVENTO";
+	ln["LOGTIMELINEEventDescriptionDescription_it"] = "Descrizione evento";
+	ln["LOGTIMELINEMediaUrl_it"] = "MEDIA URL";
+	ln["LOGTIMELINEMediaUrlDescription_it"] = "Url di un'immagine o video";
+	ln["LOGTIMELINEBackground_it"] = "IMMAGINE DI SFONDO";
+	ln["LOGTIMELINEBackgroundDescription_it"] = "URL di un'immagine di sfondo, colori CSS (ad esempio red, aqua etc.), formati esadecimali (ad esempio # 0f9bd1) oppure una parola chiave valida di un colore gestito con CSS.";
+	ln["LOGTIMELINEStartTime_it"] = "ORARIO DI INIZIO";
+	ln["LOGTIMELINEStartTimeDescription_it"] = "L'orario di inizio dell'evento. La log timeline supporta questi formati di ora: “hh:mm”, “hh:mm:ss”, “hh:mm:ss:ms”, “hh:mm:ss aaa” (ad esempio 12:08:56 -0700), “HH:mm:ssZ” (ad esempio 16:53:34Z), “HH:mm:ss a” (ad esempio 11:31:45 AM) e “hh ‘english time’ a, zzzz” (ad esempio 12 o’clock PM, Pacific Daylight Time).";
+	ln["LOGTIMELINEFinishTime_it"] = "ORARIO DI FINE";
+	ln["LOGTIMELINEFinishTimeDescription_it"] = "Orario di fine dell'evento. (vedi orario di inizio).";
+	ln["LOGTIMELINEEventInfo1_it"] = "INFORMAZIONE EVENTO 1";
+	ln["LOGTIMELINEEventInfo1Description_it"] = "Informazione aggiuntiva dell'evento.";
+	ln["LOGTIMELINEEventInfo2_it"] = "INFORMAZIONE EVENTO 2";
+	ln["LOGTIMELINEEventInfo2Description_it"] = "Informazione aggiuntiva dell'evento.";
+	ln["LOGTIMELINEEventInfo3_it"] = "INFORMAZIONE EVENTO 3";
+	ln["LOGTIMELINEEventInfo3Description_it"] = "Informazione aggiuntiva dell'evento."
+	ln["LOGTIMELINELink_it"] = "LINK";
+	ln["LOGTIMELINELinkDescription_it"] = "Link";
+	ln["date-reading_it"] = "Modalità di lettura della data";
+	ln["Std_it"] = "Standard";
+	ln["Alt_it"] = "Alternativa (prima il giorno)";
+	ln["date-readingDescription_it"] = 'La log timeline può leggere la data in modalità standard o alternativa (prima il giorno): in modalità standard legge il mese prima del giorno(ad esempio legge 10-02-2020 come 2 Ottobre); in modalità alternativa legge il giorno prima del mese(ad esempio legge 10-02-2020 come 10 febbraio).';
+	ln["timenav-position_it"] = "Posizione del timenav";
+	ln["timenav-positionDescription_it"] = "La posizione della barra di navigazione della timeline";
+	ln["Bottom_it"] = "Sotto";
+	ln["Top_it"] = "Sopra";
+	ln["lang-timeline_it"] = "Lingua";
+	ln["lang-timelineDescription_it"] = "La lingua della timeline";
+	ln["en_it"] = "Inglese";
+	ln["it_it"] = "Italiano";
+	ln["fr_it"] = "Francese";
+	ln["de_it"] = "Tedesco";
+	ln["es_it"] = "Spagnolo";
+	ln["cn_it"] = "Cinese";
+	ln["ja_it"] = "Giapponese";
+	ln["slides-order_it"] = "Caricamento diapositive";
+	ln["slides-orderDescription_it"] = "Carica la sequenza temporale dalla prima o dall'ultima diapositiva";
+	ln["start_it"] = "Dall'inizio";
+	ln["end_it"] = "Dalla fine";
+	ln["hash_bookmark_it"] = "Segnalibro hash";
+	ln["hash_bookmarkDescription_it"] = "Se impostato su ON, la logtimeline aggiornerà l'url del browser per ogni diapositiva, in questo modo è possibile collegarsi direttamente a diapositive specifiche."
+	ln["off_it"] = "OFF";
+	ln["on_it"] = "ON";
+	ln["LOGTIMELINETheme_it"] = "Tema";
+	ln["LOGTIMELINEThemeDescription_it"] = "Tema"
+	ln["light_it"] = "Chiaro";
+	ln["dark_it"] = "Scuro";
+	
+
 	
