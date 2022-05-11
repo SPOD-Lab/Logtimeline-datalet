@@ -285,7 +285,7 @@ class LogtimelineDatalet extends BaseDatalet {
                 return false;
             }
 
-            let offsetRgx = /((GMT)?)((PDT)?)( *)[+-]((\d{4})|(\d+:\d+))$/i;
+            let offsetRgx = /((GMT)?)((PST)?)((PDT)?)( *)[+-]((\d{4})|(\d+:\d+))$/i;
             if((dateElem + '').match(offsetRgx)){
                 offset = (dateElem + '').match(offsetRgx)[0];
                 dateElem = (dateElem + '').replace(offset, '');
