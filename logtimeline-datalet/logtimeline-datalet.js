@@ -684,11 +684,12 @@ class LogtimelineDatalet extends BaseDatalet {
 
                 if(!validURL(links[i])) {
                     if(links[i] !== '' && links[i] !== null && links[i] !== undefined) {
-                        let _window = window;
+                        /*let _window = window;
                         if(_window.location.href === 'about:srcdoc')
                             _window = _window.parent;
 
-                        let errorPageAbsolutePath = (_window.location.href + '').match(/[\w:/=.?_"' -]+COMPONENTS/g)[0] + '/datalets/logtimeline-datalet/error/errorPage-link.html';
+                        let errorPageAbsolutePath = (_window.location.href + '').match(/[\w:/=.?_"' -]+COMPONENTS/g)[0] + '/datalets/logtimeline-datalet/error/errorPage-link.html';*/
+						let errorPageAbsolutePath = "https://deep.routetopa.eu/deep2t/COMPONENTS/datalets/logtimeline-datalet/error/errorPage-link.html";
                         links[i] = errorPageAbsolutePath + '?' + that.getAttribute("lang-timeline");
                     }
                 }else{
